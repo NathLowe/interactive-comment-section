@@ -14,7 +14,7 @@ export default function Modal() {
         <div id="modal" onClick={()=>closeModal()} className="fixed top-0 left-0 w-screen h-screen z-50 bg-black/40">
             <div className="max-w-sm mx-auto h-full flex items-center px-3">
                 <div onClick={e=>e.stopPropagation()} className="h-fit card">
-                    <h2>Delete Comment</h2>
+                    <h2>Delete comment</h2>
                     <p className="my-4" >
                         {"Are you sure you want to delete this comment? This will remove the comment and can't be undone."}
                     </p>
