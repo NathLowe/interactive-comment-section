@@ -1,0 +1,6 @@
+.my-text-area{
+    border-color: var(--light-gray);
+    outline-color: var(--moderate-blue);
+    color: var(--grayish-blue);
+    @apply py-2 px-4 border rounded-lg w-full
+}

@@ -1,0 +1,8 @@
+#modal h2{
+    color: var(--dark-blue);
+    @apply text-xl font-semibold
+}
+
+#modal p{
+    color: var(--grayish-blue);
+}

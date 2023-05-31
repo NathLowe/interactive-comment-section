@@ -1,0 +1,25 @@
+.comment{
+    color: var(--grayish-blue);
+    @apply font-thin
+}
+.comment .quantity {
+    color: var(--light-grayish-blue);
+    background-color: var(--very-light-gray);
+}
+.comment .quantity .number{
+    color: var(--moderate-blue);
+}
+.comment .username{
+    color: var(--dark-blue);
+}
+.comment .badge{
+    background-color: var(--moderate-blue);
+    color: var(--white);
+    @apply text-xs py-0.5 px-1 rounded ml-2
+}
+.comment .reply, .comment .edit{
+    color: var(--moderate-blue);
+}
+.comment .delete{
+    color: var(--soft-red)
+}
