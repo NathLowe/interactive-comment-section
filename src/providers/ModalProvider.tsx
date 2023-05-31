@@ -9,7 +9,7 @@ interface State {
 
 const initialState: State = {
     isOpen: false,
-    openModal: (func:()=>void) => {},
+    openModal: () => {},
     closeModal:()=> {},
     deleteComment:()=> {},
 }
